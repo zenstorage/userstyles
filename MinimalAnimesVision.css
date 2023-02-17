@@ -2,76 +2,89 @@
 @name           Minimal for AnimesVision
 @namespace      animes.vision
 @version        1.0.0
-@license 		MIT
 @description    Minimal for AnimesVision
 @author         zen
 ==/UserStyle== */
 
 @-moz-document domain("animes.vision") {
 
-	/* Banner */
-	.deslide-wrap {
-	    display: none;
-	}
-
-	/* Bloat */
-	.container .hs-toggles {
-	    display: none;
-	}
-	.doacao-container {
-	    display: none;
-	}
-	.alert-primary {
-	    display: none;
-	}
-	.alert-danger {
-	    display: none;
-	}
-	section.block_area_home.block_area:nth-of-type(2) {
-	    display: none;
-	}
-
-	/* Sociais */
-	.header-group {
-	    display: none;
-	}
-
-	/* Destaques */
-	#anime-trending {
-	    padding-bottom: 10px
-	}
-
-	/* Header */
-	#wrapper {
-	    padding-top: 80px;
-	}
-
-	/* Gêneros */
-	.block_area-genres {
-	    display: none;
-	}
-
-	/* Novos */
-	#main-content {
-	    width: 100%;
-	}
-	.screen-items {
-	    margin: 0 90px 0 90px;
-	}
-
-	/* Barra Lateral */
-	#sidebar_menu.active {
-	    background-color: rgba(42, 44, 49, 0.72);
-	}
-
-	/* Barra Inferior */
-	#footer-about {
-	    display: none;
-	}
-
-	/* Mais */
-	.page-az .container {
-	    margin: 24px;
-	    max-width: 98vw;
-	}
+/* Header */
+ #header.header-home.fixed {
+     background: rgba(32, 33, 37, 0.6) !important;
+     backdrop-filter: blur(2px);
+}
+ #header {
+     position: sticky;
+     top: 0;
+}
+/* Banner */
+ .deslide-wrap {
+     display: none;
+}
+/* Bloat */
+ .container .hs-toggles {
+     display: none;
+}
+ .doacao-container {
+     display: none;
+}
+ .alert-primary {
+     display: none;
+}
+ .alert-danger {
+     display: none;
+}
+ section.block_area_home.block_area:nth-of-type(2) {
+     display: none;
+}
+ .share-buttons-detail {
+     display: none;
+}
+ div.container:nth-child(3) {
+     display: none;
+}
+ #wrapper {
+     padding-top: 0px!important 
+}
+ #main-wrapper {
+     margin-bottom: 0px!important 
+}
+ .btn-md.text-white {
+     display: none;
+}
+/* Sociais */
+ .header-group {
+     display: none;
+}
+/* Destaques */
+ #anime-trending {
+     padding-bottom: 10px 
+}
+/* Header */
+ #wrapper {
+     padding-top: 80px;
+}
+/* Gêneros */
+ .block_area-genres {
+     display: none;
+}
+/* Novos */
+ #main-content {
+     width: 100%;
+}
+ .screen-items {
+     margin: 0 90px 0 90px;
+}
+/* Barra Lateral */
+ #sidebar_menu.active {
+     background-color: rgba(42, 44, 49, 0.72);
+}
+/* Barra Inferior */
+ #footer-about {
+     display: none;
+}
+/* Mais */
+ .page-az .container {
+     margin: 24px;
+     max-width: 98vw;
 }
