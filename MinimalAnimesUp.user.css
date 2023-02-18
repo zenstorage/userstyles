@@ -1,4 +1,12 @@
-/* ==UserStyle== @name Minimal AnimesUp @namespace animesup.cx @description Minimal for AnimesUp @author zen @updateURL https://raw.githubusercontent.com/zenstorage/userstyles/main/MinimalAnimesUp.user.css @version 1.0 @license MIT ==/UserStyle== */
+/* ==UserStyle== 
+@name Minimal AnimesUp 
+@namespace animesup.cx 
+@description Minimal for AnimesUp
+@author zen 
+@updateURL https://raw.githubusercontent.com/zenstorage/userstyles/main/MinimalAnimesUp.user.css 
+@version 1.0 
+@license MIT 
+==/UserStyle== */
  @-moz-document domain("animesup.cx") {
      .sbox p {
          display: none;
