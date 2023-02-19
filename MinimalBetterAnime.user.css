@@ -6,9 +6,6 @@
 @author         zen
 ==/UserStyle== */
 @-moz-document domain("betteranime.net") {
-    html {
-        margin-top: 90px;
-    }
 
     .navbar {
         position: fixed!important;
